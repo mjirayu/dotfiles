@@ -35,7 +35,7 @@ autocmd BufWritePre *.markdown :%s/\s\+$//e
 
 "set textwidth=0     " maximum width of text that is being inserted
 "set wrapmargin=120  " number representing the maximum allowed width of a line
-"
+
 map <Up>    <NOP>
 map <Down>  <NOP>
 map <Left>  <NOP>
