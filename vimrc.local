@@ -53,4 +53,8 @@ colorscheme solarized
 
 execute pathogen#infect()
 
+" Emmet
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
+" Multiple Cursors
+let g:multi_cursor_start_key='<C-e>'
