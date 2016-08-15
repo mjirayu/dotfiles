@@ -49,9 +49,7 @@ inoremap <Right> <NOP>
 set backspace=indent,eol,start
 
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-colorscheme solarized
+colorscheme hybrid_material
 
 execute pathogen#infect()
 
@@ -64,3 +62,6 @@ let g:multi_cursor_start_key='<C-e>'
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 nnoremap <C-n>   :bnext<CR>
+
+" NERDTree
+map <C-\> :NERDTreeToggle<CR>
