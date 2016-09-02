@@ -56,7 +56,6 @@ execute pathogen#infect()
 " Emmet
 autocmd FileType html,eruby,css,scss imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
-
 " Multiple Cursors
 let g:multi_cursor_start_key='<C-e>'
 
