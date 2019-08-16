@@ -82,5 +82,17 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="./bin:$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+# Rbenv setup
+eval "$(rbenv init -)"
+
+# RAILS
+export PATH="./bin:$HOME/.bin:$HOME/.rbenv/shims:$PATH"
+
+# GOLANG
+export GOPATH=$HOME/Projects/golang
+export GOBIN=$GOPATH/bin
+export GO111MODULE=on
+export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin
