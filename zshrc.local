@@ -96,3 +96,6 @@ export GO111MODULE=on
 export PATH=$PATH:$GOPATH
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
+
+# Python
+export PATH=~/Library/Python/3.7/bin:$PATH

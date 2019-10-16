@@ -49,9 +49,8 @@ inoremap <Right> <NOP>
 set backspace=indent,eol,start
 
 set background=dark
-colorscheme hybrid_material
 
-execute pathogen#infect()
+let g:go_version_warning = 0
 
 " Emmet
 autocmd FileType html,eruby,css,scss imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
