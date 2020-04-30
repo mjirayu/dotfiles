@@ -56,6 +56,8 @@ plugins=(git)
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+ZSH_DISABLE_COMPFIX=true
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -99,3 +101,13 @@ export PATH=$PATH:$GOPATH/bin
 
 # Python
 export PATH=~/Library/Python/3.7/bin:$PATH
+
+# Docker
+export DOCKER_BUILDKIT=1
+export COMPOSE_DOCKER_CLI_BUILD=1
+
+# Flutter
+export PATH=$PATH:$HOME/flutter/bin
+
+# Simulator
+alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'

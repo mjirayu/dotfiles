@@ -8,17 +8,39 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Setup tools
+# Setup
+
+# bash
+brew install zsh
+
+# Source control
+brew install git-flow
+
+# Programming languages
 brew install rbenv
 brew install node
 brew install yarn
-brew install kuberentes-cli
+brew install go
+brew install elixir
+
+# Databases
 brew install postgresql
 brew install redis
-brew install imagemagick
+brew tap mongodb/brew
+brew install mongodb-community@4.2
 
-brew tap thoughtbot/formulae
-brew install rcm
-
+# Infrastructures
+brew install kubectl
+brew install kubectx
+brew install minikube
+brew install helm
+brew install stern
+brew install terraform
+brew install awscli
 brew tap heroku/brew
 brew install heroku
+brew install vault
+
+# Utilities
+brew install tldr
+

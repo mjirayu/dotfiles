@@ -10,7 +10,7 @@ set nu              " show line numbers
 set ignorecase      " ignore case when searching
 set title           " set title in console title bar
 set ruler           " show the line and column number of the cursor position.
-set colorcolumn=80
+set colorcolumn=80  " show color at column 80
 set autoread        " Reload unchanged files automatically.
 set cursorline      " show a visual line under the cursor's current line 
 set showmatch       " show the matching part of the pair for [] {} and ()
