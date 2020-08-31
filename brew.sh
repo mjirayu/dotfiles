@@ -43,4 +43,6 @@ brew install vault
 
 # Utilities
 brew install tldr
+brew install htop
+brew install ripgrep
 

@@ -111,3 +111,6 @@ export PATH=$PATH:$HOME/flutter/bin
 
 # Simulator
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+
+# NPM TOKEN
+export NPM_TOKEN=
