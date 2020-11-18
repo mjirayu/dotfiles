@@ -7,6 +7,7 @@
 rm $HOME/.zshrc
 cp .zshrc $HOME/.zshrc
 cp .oh-my-zsh/themes/cobalt2.zsh-theme $HOME/.oh-my-zsh/themes/
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 # Setup .vimrc
 rm $HOME/.vimrc

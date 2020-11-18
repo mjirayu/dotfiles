@@ -46,3 +46,5 @@ brew install tldr
 brew install htop
 brew install ripgrep
 
+# Zsh Plugin
+brew install autojump
