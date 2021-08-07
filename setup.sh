@@ -4,6 +4,7 @@
 ./brew.sh
 
 # Setup .zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 rm $HOME/.zshrc
 cp .zshrc $HOME/.zshrc
 cp .oh-my-zsh/themes/cobalt2.zsh-theme $HOME/.oh-my-zsh/themes/

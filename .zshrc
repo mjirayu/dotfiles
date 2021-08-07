@@ -91,6 +91,9 @@ eval "$(rbenv init -)"
 # RAILS
 export PATH="./bin:$HOME/.bin:$HOME/.rbenv/shims:$PATH"
 
+# Vscode
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 # GOLANG
 export GOPATH=$HOME/Projects/golang
 export GOBIN=$GOPATH/bin
