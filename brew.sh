@@ -23,11 +23,14 @@ brew install yarn
 brew install go
 brew install elixir
 
+# Go package
+brew install golang-migrate
+
 # Databases
 brew install postgresql
 brew install redis
 brew tap mongodb/brew
-brew install mongodb-community@4.2
+brew install mongodb-community
 
 # Infrastructures
 brew install kubectl

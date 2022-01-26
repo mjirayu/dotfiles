@@ -117,3 +117,14 @@ alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Si
 
 # NPM TOKEN
 export NPM_TOKEN=
+
+# AWS TOKEN
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+
+# The next line updates PATH for the Google Cloud SDK.
+# if [ -f '/Users/jirayu.c/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jirayu.c/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+# if [ -f '/Users/jirayu.c/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jirayu.c/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
