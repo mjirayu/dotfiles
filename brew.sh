@@ -21,6 +21,7 @@ brew install rbenv
 brew install node
 brew install yarn
 brew install go
+brew install rustup
 
 # Go package
 brew install golang-migrate
