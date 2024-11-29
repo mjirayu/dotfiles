@@ -85,12 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Rbenv setup
-eval "$(rbenv init -)"
-
-# RAILS
-export PATH="./bin:$HOME/.bin:$HOME/.rbenv/shims:$PATH"
-
 # Vscode
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 

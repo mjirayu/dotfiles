@@ -17,7 +17,6 @@ brew install zsh
 brew install git-flow
 
 # Programming languages
-brew install rbenv
 brew install node
 brew install yarn
 brew install go
@@ -40,12 +39,9 @@ brew install terraform
 brew install awscli
 brew tap heroku/brew
 brew install heroku
-brew install vault
 
 # Utilities
 brew install tldr
 brew install htop
 brew install ripgrep
 
-# Zsh Plugin
-brew install autojump
