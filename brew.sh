@@ -20,7 +20,6 @@ brew install git-flow
 brew install node
 brew install yarn
 brew install go
-brew install rustup
 
 # Go package
 brew install golang-migrate
@@ -44,4 +43,3 @@ brew install heroku
 brew install tldr
 brew install htop
 brew install ripgrep
-
