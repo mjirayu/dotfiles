@@ -24,10 +24,6 @@ brew install go
 # Go package
 brew install golang-migrate
 
-# Databases
-brew install postgresql
-brew install redis
-
 # Infrastructures
 brew install kubectl
 brew install kubectx
